@@ -23,7 +23,7 @@ const RoleSettingPage: React.FC = () => {
         alignItems: "center",
       }}
     >
-      {/* ✅ 모바일 프레임 */}
+      {}
       <div
         style={{
           width: 375,
@@ -38,7 +38,7 @@ const RoleSettingPage: React.FC = () => {
           position: "relative",
         }}
       >
-        {/* 상단 안내문 */}
+        {}
         <div
           style={{
             width: "100%",
@@ -72,7 +72,7 @@ const RoleSettingPage: React.FC = () => {
           </div>
         </div>
 
-        {/* 역할 선택 */}
+        {}
         <div
           style={{
             flex: 1,
@@ -82,11 +82,11 @@ const RoleSettingPage: React.FC = () => {
             justifyContent: "center",
             gap: 16,
             width: "100%",
-            padding: "0 24px", // ✅ 여기도 좌우 여백 추가
+            padding: "0 24px", 
             boxSizing: "border-box",
           }}
         >
-          {/* 선생님 */}
+          {}
           <div
             onClick={() => setSelectedRole("teacher")}
             style={{
@@ -127,7 +127,7 @@ const RoleSettingPage: React.FC = () => {
             </div>
           </div>
 
-          {/* 학부모 */}
+          {}
           <div
             onClick={() => setSelectedRole("parent")}
             style={{
@@ -169,7 +169,7 @@ const RoleSettingPage: React.FC = () => {
           </div>
         </div>
 
-        {/* 다음 버튼 */}
+        {}
         <div
           style={{
             width: "100%",

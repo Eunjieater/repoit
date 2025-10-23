@@ -27,7 +27,7 @@ const TermsPage: React.FC = () => {
         position: "relative",
       }}
     >
-      {/* 배경 오버레이 */}
+      {}
       {showSheet && (
         <div
           onClick={() => setShowSheet(false)}
@@ -44,7 +44,7 @@ const TermsPage: React.FC = () => {
         />
       )}
 
-      {/* 약관 동의 Bottom Sheet */}
+      {}
       <div
         style={{
           position: "fixed",
@@ -63,7 +63,7 @@ const TermsPage: React.FC = () => {
           padding: 24,
         }}
       >
-        {/* 상단 바 */}
+        {}
         <div
           style={{
             width: 40,
@@ -88,7 +88,7 @@ const TermsPage: React.FC = () => {
           약관 동의가 필요합니다
         </h3>
 
-        {/* 모두 동의 */}
+        {}
         <label
           style={{
             display: "flex",
@@ -109,7 +109,7 @@ const TermsPage: React.FC = () => {
           <span style={{ fontWeight: 500, fontSize: 16 }}>모두 동의합니다</span>
         </label>
 
-        {/* 약관 리스트 */}
+        {}
         <ul
           style={{
             listStyle: "none",
@@ -126,7 +126,7 @@ const TermsPage: React.FC = () => {
           <li>✔ (선택) 광고성 정보 수신 동의</li>
         </ul>
 
-        {/* 다음 버튼 */}
+        {}
         <button
           onClick={handleNext}
           onMouseEnter={() => setHovered(true)}
@@ -152,7 +152,7 @@ const TermsPage: React.FC = () => {
           다음
         </button>
 
-        {/* 하단 바 */}
+        {}
         <div
           style={{
             width: 134,

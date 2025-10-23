@@ -4,12 +4,12 @@ import { useNavigate } from "react-router-dom";
 const LoginPage: React.FC = () => {
   const navigate = useNavigate();
 
-  // ✅ 카카오 로그인 버튼 클릭 시 약관 동의 페이지로 이동
+  // 카카오 로그인 버튼 클릭 시 약관 동의 페이지로 이동
   const handleKakaoLogin = () => {
     navigate("/terms");
   };
 
-  // ✅ 네이버 로그인 (추후 기능 확장 가능)
+  // 네이버 로그인 (추후 기능 확장 가능)
   const handleNaverLogin = () => {
     console.log("Naver login clicked!");
   };
@@ -25,7 +25,7 @@ const LoginPage: React.FC = () => {
         alignItems: "center",
       }}
     >
-      {/* 중앙 정렬된 로그인 카드 */}
+      {}
       <div
         style={{
           width: "100%",
@@ -41,7 +41,7 @@ const LoginPage: React.FC = () => {
           height: "80vh",
         }}
       >
-        {/* 상단 헤더 */}
+        {}
         <header
           style={{
             textAlign: "center",
@@ -53,7 +53,7 @@ const LoginPage: React.FC = () => {
           Repoit
         </header>
 
-        {/* 로고 영역 */}
+        {}
         <div
           style={{
             width: 200,
@@ -78,7 +78,7 @@ const LoginPage: React.FC = () => {
           </span>
         </div>
 
-        {/* 로그인 버튼 영역 */}
+        {}
         <div
           style={{
             display: "flex",
@@ -87,7 +87,7 @@ const LoginPage: React.FC = () => {
             gap: 12,
           }}
         >
-          {/* ✅ 카카오 로그인 버튼 */}
+          {}
           <button
             onClick={handleKakaoLogin}
             style={{
@@ -105,7 +105,7 @@ const LoginPage: React.FC = () => {
             카카오로 시작하기
           </button>
 
-          {/* ✅ 네이버 로그인 버튼 */}
+          {}
           <button
             onClick={handleNaverLogin}
             style={{
